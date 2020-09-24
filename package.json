@@ -1,0 +1,13 @@
+{
+  "name": "symmetry",
+  "version": "1.0.0",
+  "description": "A simple game launcher and updater.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Alto & Symmetry Contributors",
+  "devDependencies": {
+    "electron": "^10.1.2"
+  }
+}
