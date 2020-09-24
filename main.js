@@ -7,13 +7,20 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    title: 'Symmetry',
+    icon: __dirname + '/build/icon-cyan.png',
+    maximizable: false,
+    resizable: false,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
   })
 
+  // Hide the navbar.
+  mainWindow.setMenu(null)
+
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('application/index.html')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

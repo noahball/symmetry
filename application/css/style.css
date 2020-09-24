@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.loading-text {
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 18px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.select-text {
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 3px;
+}
+
+.poster {
+    margin-top: 10%;
+}
+
+.activation-field {
+    margin-top: 20%;
+    height: 40px;
+    font-size: 30px;
+}
